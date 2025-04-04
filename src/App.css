@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #020202;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,6 +22,12 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.App-header h1 {
+  color: #A67B5B;
+  text-align: center;
+  margin: 0;
 }
 
 .App-link {
@@ -32,7 +38,19 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+@font-face {
+  font-family: 'Ribeye-Regular';
+  src: url('./fonts/Ribeye-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Ribeye-Regular', sans-serif;
 }
